@@ -1,0 +1,54 @@
+
+git init  -- creates empty git repo
+ls -a -- view hidden files  would be a .git shown
+
+git status  ---check status of repo
+
+2 steps to commit
+
+add to staging area,  then commit
+
+git add (file)
+
+git commit -m "commit message"
+
+git add . adds all chages  (dot)
+
+git checkout (commit hash)  -- go back to older commit using hash id 
+
+
+
+https://www.notion.so/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7 -- github notes
+
+
+github --------------------------------------
+make repo on github website
+
+git remote add origin https://github.com/chasze/learngit.git -- use these when adding existing repo
+git branch -M main
+git push -u origin main
+
+
+--- otherwise if making new repo
+echo "# learngit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chasze/learngit.git
+git push -u origin main
+------------------------------
+
+
+git clone (github url)   --- makes a copy of the github repo
+
+
+fork -- make an copy of a repo on github   
+clone fork w/ git clone
+
+
+pull request
+-- compare changes to original repo  -- create pull request and submit to original repo developer
+
+
+
